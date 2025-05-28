@@ -1,0 +1,10 @@
+.activity-chart {
+  padding: 1rem;
+  background: white;
+  border-radius: 1rem;
+}
+.chart-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}

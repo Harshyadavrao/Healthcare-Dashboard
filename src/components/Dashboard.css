@@ -1,0 +1,31 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+  min-height: 100vh;
+  background: white;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.main-content {
+  grid-column: span 10;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.left-panel {
+  grid-column: span 2;
+  display: grid;
+  grid-template-rows: 220px 220px;
+  gap: 2px;
+}
+.right-panel {
+  display: grid;
+  gap: 1rem;
+}
+.calendar-box {
+  padding: 1rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

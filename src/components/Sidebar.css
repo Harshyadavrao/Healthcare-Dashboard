@@ -1,0 +1,64 @@
+.sidebar {
+  grid-column: span 2;
+  background: rgb(227, 240, 240);
+  border-radius: 1rem 0rem 0rem 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.heading{
+  margin-top: 2rem;
+}
+.logo {
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#health{
+  color: #26d7d7;
+}
+#care{
+  color: #0d093d;
+}
+.nav{
+  margin-top: 4rem;
+}
+.nav li {
+  margin-bottom: 1rem;
+  color: #4b5563;
+}
+.option{
+  opacity: 0.5;
+}
+.option:hover{
+  cursor: pointer;
+  color: #0d0b20;
+  opacity: 1;
+}
+.extras{
+  margin-top: 4rem;
+}
+.extras .icon-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+.icon-text:hover{
+  color: #0d0b20;
+  opacity: 1;
+  cursor: pointer;
+}
+.footer {
+  margin-top: 1.5rem;
+  color: #9ca3af;
+  font-size: 0.875rem;
+  opacity: 0.5;
+  margin-top: 14rem;
+}
+.footer:hover{
+  opacity: 1;
+  color: #0d0b20;
+  cursor: pointer;
+}
